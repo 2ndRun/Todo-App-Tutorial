@@ -1,0 +1,95 @@
+* {
+    background-color: grey;
+
+}
+
+body {
+    max-width: 100vw;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#form-input {
+    width: 40ch;
+    height: 3.5ch;
+    margin: 5px;
+    background-color: white;
+}
+
+/* #submit {
+    margin: 5px;
+    margin-top: 0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 5rem;
+    height: 5.5ch;
+} */
+
+.button {
+    margin: 5px;
+    margin-top: 0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 5rem;
+    height: 5.5ch;
+    font-weight: bold;
+    color: white;
+    border: 1.5px solid black;
+}
+
+.button.add-color {
+    background-color: #F9A602;
+
+}
+
+.button.complete-color {
+    background-color: #3d8c40;
+
+}
+
+.button.delete-color {
+    background-color: red;
+
+}
+
+#list {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 70rem;
+    margin: auto;
+    padding: 0;
+}
+
+.quest {
+    width: 100%;
+    display: flex;
+    justify-content:space-around; 
+    align-items: center;
+}
+
+.complete {
+    text-decoration: line-through;
+    text-decoration-color: white;
+}
+
+.options {
+    max-width: 184px;
+}
+
+#content {
+    max-width: 60rem;
+    width: 40rem;
+}
